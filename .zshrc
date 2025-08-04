@@ -1,5 +1,8 @@
+# zsh init script
 eval "$(starship init zsh)"
 
-# aliases
-alias config='/usr/bin/git --git-dir=/Users/werbitzky/.cfg/ --work-tree=/Users/werbitzky'
-alias lazyconfig='lazygit --git-dir=$HOME/.cfg --work-tree=$HOME'
+# Configuration repository aliases
+alias cfg='/usr/bin/git --git-dir=/Users/werbitzky/.cfg/ --work-tree=/Users/werbitzky'
+alias lcfg='lazygit --git-dir=$HOME/.cfg --work-tree=$HOME'
+alias ecfg='hx $HOME/.zshrc'
+alias rcfg='exec zsh'
