@@ -1,0 +1,20 @@
+[aws]
+disabled = true
+
+[time]
+disabled = false
+style = "grey"
+format = "at [$time]($style) "
+
+[ruby]
+disabled = true
+
+[directory]
+truncate_to_repo = false
+truncation_length = 90
+
+[elixir]
+disabled = true
+
+[nodejs]
+disabled = true
