@@ -11,6 +11,7 @@ alias cfge='hx $HOME/.zshrc && cfgr'
 alias nws="kitty --detach --start-as=fullscreen --session ~/.config/kitty/jlo-session.conf"
 alias nwse="hx $HOME/.config/kitty/jlo-session.conf"
 alias nwcd="cd $HOME/new-dev/nightwing"
+alias nwd="docker compose --profile web up"
 
 # kitty
 alias kie="hx $HOME/.config/kitty/kitty.conf"
