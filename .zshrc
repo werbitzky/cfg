@@ -10,9 +10,14 @@ alias cfge='hx $HOME/.zshrc && cfgr'
 # JLO Nightwing aliases
 alias nws="kitty --detach --start-as=fullscreen --session ~/.config/kitty/jlo-session.conf"
 alias nwse="hx $HOME/.config/kitty/jlo-session.conf"
+alias nwcd="cd $HOME/new-dev/nightwing"
 
 # kitty
 alias kie="hx $HOME/.config/kitty/kitty.conf"
 
 # helix
 alias hxe="hx $HOME/.config/helix/config.toml"
+
+# git
+alias gitig="hx $HOME/.config/git/ignore"
+alias gitex="hx .git/info/exclude"
